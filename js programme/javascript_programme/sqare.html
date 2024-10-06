@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>JavaScript</title>
+</head>
+<body>
+    <script>
+        function square()
+        {
+            var x=document.getElementById("num1").value;
+            document.getElementById("data1").innerHTML=x*x;
+        }
+
+    </script>
+
+    <form>
+        <input type="text" id="num1"  placeholder="Enter Value">
+        <button type="button" onclick="square()">square</button>
+        <p id="data1"></p>
+    </form>
+</body>
+</html>
